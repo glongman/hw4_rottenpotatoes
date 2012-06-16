@@ -7,6 +7,7 @@ class MoviesController < ApplicationController
   end
 
   def director
+    # TODO FIME
   end
 
   def index
