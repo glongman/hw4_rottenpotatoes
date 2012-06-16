@@ -45,6 +45,7 @@ When /I (un)?check the following ratings: (.*)/ do |uncheck, rating_list|
   #   "When I uncheck..." steps in lines 89-95 of web_steps.rb
 end
 
-Then /^the director of "(.*?)" should be "(.*?)"$/ do |arg1, arg2|
-    pending # express the regexp above with the code you wish you had
+Then /^the director of "(.*?)" should be "(.*?)"$/ do |title, director|
+    movie = Movie.where(:title => title, :director => director).first
+    flunk "No movie #{title} was found with director #{director}" unless movie
 end
