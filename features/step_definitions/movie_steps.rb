@@ -44,3 +44,7 @@ When /I (un)?check the following ratings: (.*)/ do |uncheck, rating_list|
   #   iterate over the ratings and reuse the "When I check..." or
   #   "When I uncheck..." steps in lines 89-95 of web_steps.rb
 end
+
+Then /^the director of "(.*?)" should be "(.*?)"$/ do |arg1, arg2|
+    pending # express the regexp above with the code you wish you had
+end
