@@ -34,6 +34,7 @@ GEM
     addressable (2.2.8)
     archive-tar-minitar (0.5.2)
     arel (2.2.3)
+    assert_difference (0.4.0)
     bcrypt-ruby (3.0.1)
     builder (3.0.0)
     capybara (1.1.2)
@@ -191,6 +192,7 @@ PLATFORMS
 
 DEPENDENCIES
   ZenTest
+  assert_difference
   capybara
   coffee-rails (~> 3.1.0)
   cucumber-rails

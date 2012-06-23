@@ -10,6 +10,7 @@ group :development do
   gem 'sqlite3'
 end
 group :test do
+  gem 'assert_difference'
   gem 'ruby-debug19', :require => 'ruby-debug'
   gem 'cucumber-rails', :require => false
   gem 'cucumber-rails-training-wheels'
@@ -17,7 +18,7 @@ group :test do
   gem 'capybara'
   gem 'launchy'
   gem 'rspec-rails'
-  gem 'simplecov'
+  gem 'simplecov', :require => false
   gem 'ZenTest'
   gem "factory_girl"
   gem "factory_girl_rails"
