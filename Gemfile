@@ -11,7 +11,7 @@ group :development do
 end
 group :test do
   gem 'ruby-debug19', :require => 'ruby-debug'
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', :require => false
   gem 'cucumber-rails-training-wheels'
   gem 'database_cleaner'
   gem 'capybara'
